@@ -1,1 +1,6 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Practice_\Practice_\bin\Debug\Practice_.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Practice_\Practice_\bin\Debug\Practice_.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Practice_\Practice_\bin\Debug\Practice_.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Practice_\Practice_\obj\Debug\Practice_.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Practice_\Practice_\obj\Debug\Practice_.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Practice_\Practice_\obj\Debug\Practice_.pdb

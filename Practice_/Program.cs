@@ -10,33 +10,81 @@ namespace Practice_
     {
         static void Main(string[] args)
         {
-            string test = "Brian";
-            char[] name = new char[10];
-            name = test.ToCharArray();
+            //string test = "Brian";
+            //char[] name = new char[10];
+            //name = test.ToCharArray();
 
-            //string furtherDown = test.Substring(4);
-            //int moreTest = test.IndexOf(' ');
+            List<string> imaList = new List<string>();
 
-            //Console.WriteLine(furtherDown);
-            //Console.WriteLine(test.Substring(moreTest + 2));
+            imaList.Add("wow");
+            imaList.Add("okay");
+            imaList.Add("let's see");
+            imaList.Insert(1, "candy");
+
+            string test = imaList.ElementAt(2);
+
+            Console.WriteLine(test);
+
+            foreach (string item in imaList)
+            {
+                Console.WriteLine(item);
+            }
+
+            string sentence = "this is original string another string";
+            string piece = sentence.Substring(17, 3);
+
+            int times = 0;
+            
+            if (sentence.Contains(piece))
+            {
+                times++;
+            }
+
+            Console.WriteLine("The string " + "'" + piece + "'" + " occurs " + times + " times.");
+
+            //Console.WriteLine(SubbyString(sentence));
+
+
+
+            
+        }
+   
+
+        //string furtherDown = test.Substring(4);
+        //int moreTest = test.IndexOf(' ');
+
+        //Console.WriteLine(furtherDown);
+        //Console.WriteLine(test.Substring(moreTest + 2));
 
 
 
 
-            //string x = name[2];
+        //string x = name[2];
 
 
-            Console.WriteLine(name[2]);
-            Console.ReadLine();
+        //Console.WriteLine(name[2]);
+        //Console.ReadLine();
 
-            int[] numbers = { 7, 9, 14, 1, 2, 8, 3, 22, 11, 4 };
+        //int[] numbers = { 7, 9, 14, 1, 2, 8, 3, 22, 11, 4 };
+
+        //public static string SubCount(string count)
+        //{
+
+        //}
 
 
+
+
+        public static string SubbyString(string original)
+        {
+            string newString = original.Substring(17, 3);
+
+
+            return newString;
 
         }
     }
 }
-
 //            string test = "Bobby";
 //            string otherTest = "Phil";
 
@@ -125,6 +173,6 @@ namespace Practice_
 //        {
 //            return cc.Substring(len).PadLeft(3, '#');
 //        }
-        }
-    }
-}
+//        }
+//    }
+//}
